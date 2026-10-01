@@ -152,16 +152,17 @@ public class Linkedlist {
         ll.display();
         System.out.println("Total Number of Nodes : " + ll.sizecount());
         ll.reverseLL();
+        System.out.print("Reversed Linked List : ");
         ll.display();
 
-        // System.out.print("Enter the Key : ");
-        // int n=s.nextInt();
-        // int result=ll.search(n);
-        // if(result>=0){
-        //     System.out.println("Key Found at Index : "+result);
-        // }
-        // else{
-        //     System.out.println("Key Not Found !");
-        // }
+        System.out.print("Enter the Key : ");
+        int n=s.nextInt();
+        int result=ll.search(n);
+        if(result>=0){
+            System.out.println("Key Found at Index : "+result);
+        }
+        else{
+            System.out.println("Key Not Found !");
+        }
     }
 }
